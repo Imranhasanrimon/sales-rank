@@ -33,15 +33,15 @@ const LeftChat = () => {
 
             {/* chat body */}
             <div className='h-80 overflow-auto'>
-                <div className='flex items-start gap-5 p-5'>
-                    <img src="https://img.icons8.com/?size=100&id=eoxMN35Z6JKg&format=png&color=000000" alt="AI logo" className='w-12 rounded-full bg-[#CDCDCD] p-2' />
-                    <p className='text-lg bg-white p-4 rounded-xl inline-block'>Hello! I'm your AI sales coach. How can I help you improve your sales performance today?</p>
+                <div className='grid grid-cols-12 gap-5 p-5'>
+                    <span className='w-12 h-12 rounded-full bg-[#CDCDCD] p-2 col-span-2 md:col-span-1 lg:col-span-2 xl:col-span-1'></span>
+                    <p className='md:text-lg bg-white p-4 rounded-xl inline-block col-span-10 md:col-span-11 lg:col-span-10 xl:col-span-11'>Hello! I'm your AI sales coach. How can I help you improve your sales performance today?</p>
                 </div>
 
                 {
-                    chats.map((chat, i) => <div key={i} className='flex items-end justify-end gap-5 p-5'>
-                        <p className='text-lg bg-[#3174e0] text-white p-4 rounded-xl inline-block'>{chat}</p>
-                        <img src="https://img.icons8.com/?size=100&id=ABBSjQJK83zf&format=png&color=000000" alt="AI logo" className='w-12 rounded-full bg-[#CDCDCD] p-2' />
+                    chats.map((chat, i) => <div key={i} className='grid grid-cols-12 gap-5 p-5 items-end justify-end'>
+                        <p className='md:text-lg bg-[#3174e0] text-white p-4 rounded-xl inline-block  col-span-10 md:col-span-11 lg:col-span-10 xl:col-span-11'>{chat}</p>
+                        <span className='w-12 h-12 rounded-full bg-[#CDCDCD] p-2 col-span-2 md:col-span-1 lg:col-span-2 xl:col-span-1'></span>
                     </div>)
                 }
 
