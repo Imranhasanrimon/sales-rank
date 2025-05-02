@@ -2,6 +2,7 @@ import Banner from "../components/Banner";
 import Chat from "../components/Chat";
 import Courses from "../components/Courses";
 import FAQ from "../components/FAQ";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 const LandingPage = () => {
@@ -12,6 +13,7 @@ const LandingPage = () => {
             <Chat />
             <Courses />
             <FAQ />
+            <Footer />
         </div>
     );
 };

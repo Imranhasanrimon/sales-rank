@@ -3,7 +3,7 @@ import { FaArrowLeft } from "react-icons/fa";
 
 const FAQ = () => {
     return (
-        <div className="max-w-[1440px] mx-auto px-4 mt-32 lg:mt-20 manrope relative mb-[1000px]">
+        <div className="max-w-[1440px] mx-auto px-4 mt-32 lg:mt-20 manrope relative">
             <span className="absolute -top-12 lg:top-0">Frequently asked <br /> questions</span>
 
             <h2 className="text-3xl xl:text-6xl md:w-[620px] xl:w-[920px] text-center xl:text-left mx-auto">Constant collaboration is how we roll. Let's see if we are a good fit.</h2>

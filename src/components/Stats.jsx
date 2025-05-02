@@ -30,11 +30,11 @@ const Stats = () => {
                     <div className="grid grid-cols-2 gap-4 mt-5">
                         <div className="bg-white p-2 rounded-lg">
                             <MdStickyNote2 className="text-4xl text-[#002868]" />
-                            <p className="text-lg font-semibold mt-2">Generate Script</p>
+                            <p className="sm:text-lg font-semibold mt-2">Generate Script</p>
                         </div>
                         <div className="bg-white p-2 rounded-lg">
                             <AiFillMessage className="text-4xl text-[#002868]" />
-                            <p className="text-lg font-semibold mt-2">Practice Pitch</p>
+                            <p className="sm:text-lg font-semibold mt-2">Practice Pitch</p>
                         </div>
                     </div>
                 </div>
