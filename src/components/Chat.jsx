@@ -8,7 +8,7 @@ import Stats from "./Stats";
 
 const Chat = () => {
     return (
-        <div className="bg-linear-to-r from-[#103570] to-[#004FCE] pt-6 pb-10 mb-[1000px] manrope">
+        <div className="bg-linear-to-r from-[#103570] to-[#004FCE] pt-6 pb-10 manrope">
             <div className="max-w-[1440px] mx-auto px-4">
                 <p className="text-[#FCE38A] text-2xl questrial">Live Ai Coach</p>
                 <h3 className="text-white text-3xl md:text-5xl lg:text-6xl  questrial mt-5 mb-15">Take a Suggestion Coaching</h3>

@@ -1,5 +1,6 @@
 import Banner from "../components/Banner";
 import Chat from "../components/Chat";
+import Courses from "../components/Courses";
 import Navbar from "../components/Navbar";
 
 const LandingPage = () => {
@@ -8,6 +9,7 @@ const LandingPage = () => {
             <Navbar />
             <Banner />
             <Chat />
+            <Courses />
         </div>
     );
 };
