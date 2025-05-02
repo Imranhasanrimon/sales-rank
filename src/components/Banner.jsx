@@ -4,7 +4,7 @@ import backup_table from "../assets/backup_table.png"
 import atr from "../assets/atr.png"
 const Banner = () => {
     return (
-        <div className="max-w-[1440px] mx-auto flex flex-col lg:flex-row justify-between manrope mt-8 lg:mt-0 2xl:mt-16 mb-[1000px]">
+        <div className="max-w-[1440px] mx-auto flex flex-col lg:flex-row justify-between manrope mt-8 lg:mt-0 2xl:mt-16 px-4 mb-20 lg:mb-40">
             {/* text */}
             <div className="flex lg:block flex-col items-center">
                 <h1 className="text-5xl lg:text-6xl 2xl:text-[80px] font-medium text-center lg:text-left mb-5 lg:mb-0 text-[#111111]">

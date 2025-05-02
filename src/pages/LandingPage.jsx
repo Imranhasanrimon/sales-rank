@@ -1,14 +1,14 @@
 import Banner from "../components/Banner";
+import Chat from "../components/Chat";
 import Navbar from "../components/Navbar";
 
 const LandingPage = () => {
     return (
-        <>
+        <div>
             <Navbar />
-            <div className="px-4">
-                <Banner />
-            </div>
-        </>
+            <Banner />
+            <Chat />
+        </div>
     );
 };
 
