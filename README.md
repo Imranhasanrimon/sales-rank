@@ -1,6 +1,7 @@
 
 ![Logo](https://i.ibb.co.com/4R0WRdwD/banner-task.png)
 ![Logo](https://i.ibb.co.com/CK834Mm3/task2.png)
+![Logo](https://i.ibb.co.com/1t1w01SF/footer.png)
 
 # SalesRank.Ai
 
@@ -25,4 +26,4 @@ Install SalesRank.Ai project with npm
   cd sales-rank
   npm install
 ```
-    
+Live Link: https://sales-rank-task.netlify.app/    
